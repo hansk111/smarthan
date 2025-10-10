@@ -20,7 +20,7 @@
       "package": "com.hansk111.smarthan",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyAFA_6pqmEs5FBCLiMT0wf3w-DtfaRyMZI"
+          "apiKey": ""
         }
       }
     },
