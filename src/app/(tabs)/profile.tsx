@@ -10,6 +10,7 @@ import {
   deleteRefreshToken,
 } from "@/store/auth/tokenManager";
 import { useDispatch } from "@/store/hooks";
+import { RootState } from "@/store/store";
 import * as ImagePicker from "expo-image-picker"; // expo install expo-image-picker 필요
 import { LinearGradient } from "expo-linear-gradient"; // expo install expo-linear-gradient 필요
 import { useRouter } from "expo-router";
@@ -24,6 +25,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { useSelector } from "react-redux";
 
 const Profile = () => {
   const router = useRouter();
@@ -34,6 +36,9 @@ const Profile = () => {
 
   const [logout, { isLoading: isLoggingOut }] = useLogoutMutation();
   const [putUserAvatar] = usePutUserAvatarMutation();
+
+  const result = useSelector((state: RootState) => state.mbti.result);
+  console.log("result:", result);
 
   // 이미지 선택 함수
   const selectAvarter = async () => {
@@ -193,11 +198,11 @@ const Profile = () => {
         Platform.OS === "web"
           ? selectedImage // 웹: File 객체
           : {
-              // 네이티브: 메타데이터 객체
-              uri: selectedImage.uri,
-              name: selectedImage.name,
-              type: selectedImage.type,
-            };
+            // 네이티브: 메타데이터 객체
+            uri: selectedImage.uri,
+            name: selectedImage.name,
+            type: selectedImage.type,
+          };
       console.log("이미지 업로드 시작:", avatarImage);
       await putUserAvatar(avatarImage).unwrap();
       console.log("이미지 업로드 성공");

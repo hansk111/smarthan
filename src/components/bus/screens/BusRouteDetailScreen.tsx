@@ -23,6 +23,7 @@ import type { RootState } from "@/store/store";
 import type { BusRoute, LocationType, StationType } from "@/types";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { GoogleMaps } from "expo-maps";
+import { GoogleMapsMapType } from "expo-maps/build/google/GoogleMaps.types";
 import { BusStopRouteCard } from "../BusStopRouteCard";
 
 interface BusRouteDetailScreenProps {
@@ -303,14 +304,14 @@ export const BusRouteDetailScreen: React.FC<BusRouteDetailScreenProps> = ({
             >
               {direction ? (
                 <MaterialCommunityIcons
-                  name="format-textdirection-l-to-r"
+                  name="arrow-up"
                   size={18}
                   color="white"
                   style={{ marginRight: 12 }}
                 />
               ) : (
                 <MaterialCommunityIcons
-                  name="format-textdirection-r-to-l"
+                  name="arrow-down"
                   size={18}
                   color="white"
                   style={{ marginRight: 12 }}
@@ -368,66 +369,66 @@ export const BusRouteDetailScreen: React.FC<BusRouteDetailScreenProps> = ({
         {/* 새로고침 버튼 */}
 
         {isMapmode && Platform.OS === "android" ? (
-          <Text>under constr</Text>
-        ) : // <BusMap locations={locations} stations={stations}></BusMap>
-        // <GoogleMaps.View
-        //   ref={ref}
-        //   style={{ flex: 1 }}
-        //   cameraPosition={cameraPosition}
-        //   properties={{
-        //     isBuildingEnabled: true,
-        //     isIndoorEnabled: true,
-        //     mapType: GoogleMapsMapType.TERRAIN, //HYBRID, NORMAL, SATELLITE, TERRAIN
-        //     selectionEnabled: true,
-        //     isMyLocationEnabled: true, // requires location permission
-        //     isTrafficEnabled: true,
-        //     // minZoomPreference: 1,
-        //     // maxZoomPreference: 20,
-        //   }}
-        //   // 3
-        //   polylines={[
-        //     {
-        //       color: "blue",
-        //       width: 5,
-        //       coordinates: polylineCoordinates,
-        //     },
-        //   ]}
-        //   // 4
-        //   markers={allMarkers}
-        //   // onPolylineClick={(event) => {
-        //   //   console.log(event);
-        //   //   Alert.alert("Polyline clicked", JSON.stringify(event));
-        //   // }}
-        //   // onMapLoaded={() => {
-        //   //   console.log(JSON.stringify({ type: "onMapLoaded" }, null, 2));
-        //   // }}
-        //   // onMapClick={(e) => {
-        //   //   console.log(
-        //   //     JSON.stringify({ type: "onMapClick", data: e }, null, 2)
-        //   //   );
-        //   // }}
-        //   // onMapLongClick={(e) => {
-        //   //   console.log(
-        //   //     JSON.stringify({ type: "onMapLongClick", data: e }, null, 2)
-        //   //   );
-        //   // }}
-        //   // onPOIClick={(e) => {
-        //   //   console.log(
-        //   //     JSON.stringify({ type: "onPOIClick", data: e }, null, 2)
-        //   //   );
-        //   // }}
-        //   // onMarkerClick={(e) => {
-        //   //   console.log(
-        //   //     JSON.stringify({ type: "onMarkerClick", data: e }, null, 2)
-        //   //   );
-        //   // }}
-        //   // onCameraMove={(e) => {
-        //   //   console.log(
-        //   //     JSON.stringify({ type: "onCameraMove", data: e }, null, 2)
-        //   //   );
-        //   // }}
-        // />
-        stations.length > 0 ? (
+          //   <Text>under constr</Text>
+          //   <BusMap locations={locations} stations={stations}></BusMap>
+          <GoogleMaps.View
+            ref={ref}
+            style={{ flex: 1 }}
+            cameraPosition={cameraPosition}
+            properties={{
+              isBuildingEnabled: true,
+              isIndoorEnabled: true,
+              mapType: GoogleMapsMapType.TERRAIN, //HYBRID, NORMAL, SATELLITE, TERRAIN
+              selectionEnabled: true,
+              isMyLocationEnabled: true, // requires location permission
+              isTrafficEnabled: true,
+              // minZoomPreference: 1,
+              // maxZoomPreference: 20,
+            }}
+            // 3
+            polylines={[
+              {
+                color: "blue",
+                width: 5,
+                coordinates: polylineCoordinates,
+              },
+            ]}
+            // 4
+            markers={allMarkers}
+            // onPolylineClick={(event) => {
+            //   console.log(event);
+            //   Alert.alert("Polyline clicked", JSON.stringify(event));
+            // }}
+            // onMapLoaded={() => {
+            //   console.log(JSON.stringify({ type: "onMapLoaded" }, null, 2));
+            // }}
+            // onMapClick={(e) => {
+            //   console.log(
+            //     JSON.stringify({ type: "onMapClick", data: e }, null, 2)
+            //   );
+            // }}
+            // onMapLongClick={(e) => {
+            //   console.log(
+            //     JSON.stringify({ type: "onMapLongClick", data: e }, null, 2)
+            //   );
+            // }}
+            // onPOIClick={(e) => {
+            //   console.log(
+            //     JSON.stringify({ type: "onPOIClick", data: e }, null, 2)
+            //   );
+            // }}
+            // onMarkerClick={(e) => {
+            //   console.log(
+            //     JSON.stringify({ type: "onMarkerClick", data: e }, null, 2)
+            //   );
+            // }}
+            // onCameraMove={(e) => {
+            //   console.log(
+            //     JSON.stringify({ type: "onCameraMove", data: e }, null, 2)
+            //   );
+            // }}
+          />
+        ) : stations.length > 0 ? (
           <ScrollView
             className="flex-1 px-1"
             showsVerticalScrollIndicator={false}

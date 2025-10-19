@@ -6,6 +6,7 @@ import { Redirect, Tabs, useRouter } from "expo-router";
 import React from "react";
 import { TouchableOpacity } from "react-native";
 
+
 const Tab_layout = () => {
   const router = useRouter();
   const { isAuthenticated } = useSelector((state) => state.auth);
@@ -35,8 +36,8 @@ const Tab_layout = () => {
             },
             headerTitleAlign: "center",
             headerLeft: () => (
-              <TouchableOpacity className="ml-4" onPress={() => router.back()}>
-                <Ionicons name="musical-notes" size={40} color="blue" />
+              <TouchableOpacity className="ml-4" onPress={() => router.push('/')}>
+                <Ionicons name="home" size={40} color="blue" />
               </TouchableOpacity>
             ),
             headerRight: () => (
@@ -67,8 +68,8 @@ const Tab_layout = () => {
             },
             headerTitleAlign: "center",
             headerLeft: () => (
-              <TouchableOpacity className="ml-4" onPress={() => router.back()}>
-                <Ionicons name="bus" size={40} color="blue" />
+              <TouchableOpacity className="ml-4" onPress={() => router.push('/')}>
+                <Ionicons name="home" size={40} color="blue" />
               </TouchableOpacity>
             ),
             headerRight: () => (
@@ -99,8 +100,8 @@ const Tab_layout = () => {
             },
             headerTitleAlign: "center",
             headerLeft: () => (
-              <TouchableOpacity className="ml-4" onPress={() => router.back()}>
-                <MaterialCommunityIcons name="movie" size={40} color="purple" />
+              <TouchableOpacity className="ml-4" onPress={() => router.push('/')}>
+                <Ionicons name="home" size={40} color="blue" />
               </TouchableOpacity>
             ),
             headerRight: () => (
@@ -131,12 +132,72 @@ const Tab_layout = () => {
             },
             headerTitleAlign: "center",
             headerLeft: () => (
+              <TouchableOpacity className="ml-4" onPress={() => router.push('/')}>
+                <Ionicons name="home" size={40} color="blue" />
+              </TouchableOpacity>
+            ),
+            headerRight: () => (
+              <TouchableOpacity
+                className="mr-4"
+                onPress={() => router.navigate("/profile")}
+              >
+                <Ionicons name="settings-outline" size={24} color="black" />
+              </TouchableOpacity>
+            ),
+          }}
+        />
+        {/* <Tabs.Screen
+          name="mbti"
+          options={{
+            title: "MBTI 테스트",
+            tabBarIcon: ({ focused, color }) => (
+              <MaterialCommunityIcons
+                name="brain"
+                size={24}
+                color={color}
+              />
+            ),
+            headerTintColor: "black",
+            headerTitleStyle: {
+              fontWeight: "bold",
+              fontSize: 26,
+            },
+            headerTitleAlign: "center",
+            headerLeft: () => (
               <TouchableOpacity className="ml-4" onPress={() => router.back()}>
-                <MaterialCommunityIcons
-                  name="weather-sunny"
-                  size={40}
-                  color="purple"
-                />
+                <MaterialCommunityIcons name="brain" size={40} color="purple" />
+              </TouchableOpacity>
+            ),
+            headerRight: () => (
+              <TouchableOpacity
+                className="mr-4"
+                onPress={() => router.navigate("/profile")}
+              >
+                <Ionicons name="settings-outline" size={24} color="black" />
+              </TouchableOpacity>
+            ),
+          }}
+        /> */}
+        <Tabs.Screen
+          name="apps"
+          options={{
+            title: "Applications",
+            tabBarIcon: ({ focused, color }) => (
+              <Ionicons
+                name={focused ? "apps" : "apps-outline"}
+                size={24}
+                color={color}
+              />
+            ),
+            headerTintColor: "black",
+            headerTitleStyle: {
+              fontWeight: "bold",
+              fontSize: 26,
+            },
+            headerTitleAlign: "center",
+            headerLeft: () => (
+              <TouchableOpacity className="ml-4" onPress={() => router.push('/')}>
+                <Ionicons name="home" size={40} color="blue" />
               </TouchableOpacity>
             ),
             headerRight: () => (
@@ -167,8 +228,8 @@ const Tab_layout = () => {
             },
             headerTitleAlign: "center",
             headerLeft: () => (
-              <TouchableOpacity className="ml-4" onPress={() => router.back()}>
-                <Ionicons name="arrow-back" size={24} color="black" />
+              <TouchableOpacity className="ml-4" onPress={() => router.push('/')}>
+                <Ionicons name="home" size={40} color="blue" />
               </TouchableOpacity>
             ),
             headerRight: () => (

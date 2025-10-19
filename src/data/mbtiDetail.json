@@ -1,0 +1,674 @@
+{
+    "INTJ": {
+        "tagline": "전략가",
+        "traits": [
+            "분석적",
+            "독립적",
+            "미래지향적",
+            "논리적"
+        ],
+        "strengths": [
+            "전략적 사고",
+            "자기 주도적",
+            "복잡한 문제 해결"
+        ],
+        "weaknesses": [
+            "감정 표현이 서투름",
+            "완벽주의",
+            "사회적 거리감"
+        ],
+        "career": [
+            "전략 기획",
+            "데이터 사이언스",
+            "연구·개발",
+            "컨설팅"
+        ],
+        "love": [
+            "깊이 있는 대화와 지적 교류를 중시하는 파트너와 조화",
+            "감정을 직접적으로 표현하는 사람과 갈등 가능"
+        ],
+        "growth": [
+            "감정을 인지·표현 연습",
+            "팀 프로젝트에 자발적으로 참여"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/INTJ.png"
+    },
+    "INTP": {
+        "tagline": "논리학자",
+        "traits": [
+            "호기심많음",
+            "분석적",
+            "객관적",
+            "혁신적"
+        ],
+        "strengths": [
+            "복잡한 아이디어를 체계화",
+            "독창적인 해결책",
+            "지적 유연성"
+        ],
+        "weaknesses": [
+            "결정 회피",
+            "감정 무시",
+            "일관성 부족"
+        ],
+        "career": [
+            "소프트웨어 개발",
+            "연구·학술",
+            "철학·이론 연구",
+            "프로그래밍"
+        ],
+        "love": [
+            "지적인 대화를 즐기는 파트너와 깊은 연결",
+            "감정을 즉시 표현하지 않아 오해가 생길 수 있음"
+        ],
+        "growth": [
+            "실제 행동으로 아이디어 검증",
+            "감정에 더 귀 기울이기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/INTP.png"
+    },
+    "ENTJ": {
+        "tagline": "지휘관",
+        "traits": [
+            "결단력",
+            "리더십",
+            "전략적",
+            "효율성 중시"
+        ],
+        "strengths": [
+            "목표 지향적",
+            "조직 능력",
+            "문제 해결 속도"
+        ],
+        "weaknesses": [
+            "과도한 통제",
+            "감정적 배려 부족",
+            "인내심 부족"
+        ],
+        "career": [
+            "경영·전략",
+            "프로젝트 매니지먼트",
+            "기업가",
+            "법무·정책"
+        ],
+        "love": [
+            "동등한 목표와 성장 의지를 가진 파트너와 조화",
+            "감정 표현이 서투른 경우 충돌 가능"
+        ],
+        "growth": [
+            "경청과 감정 공감 연습",
+            "팀원에게 권한 위임하기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ENTJ.png"
+    },
+    "ENTP": {
+        "tagline": "발명가",
+        "traits": [
+            "창의적",
+            "재치있음",
+            "논쟁을 즐김",
+            "재빠른 사고"
+        ],
+        "strengths": [
+            "아이디어 생성",
+            "문제 재구성",
+            "유연한 사고"
+        ],
+        "weaknesses": [
+            "깊이 부족",
+            "과도한 논쟁",
+            "실행력 결여"
+        ],
+        "career": [
+            "마케팅·광고",
+            "스타트업 창업",
+            "컨설팅",
+            "연예·엔터테인먼트"
+        ],
+        "love": [
+            "지적 자극을 주고받는 파트너와 흥미진진한 관계",
+            "깊이 있는 감정 교류가 부족할 수 있음"
+        ],
+        "growth": [
+            "아이디어를 실제로 구현하는 연습",
+            "타인의 감정에 귀 기울이기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ENTP.png"
+    },
+    "INFJ": {
+        "tagline": "옹호자",
+        "traits": [
+            "통찰력",
+            "동정심",
+            "이상주의",
+            "신중함"
+        ],
+        "strengths": [
+            "깊은 인간관계",
+            "비전 제시",
+            "도덕적 원칙"
+        ],
+        "weaknesses": [
+            "과도한 민감성",
+            "완벽주의",
+            "자기희생 경향"
+        ],
+        "career": [
+            "상담·심리치료",
+            "교육·멘토링",
+            "작가·예술",
+            "비영리·사회복지"
+        ],
+        "love": [
+            "감성적 깊이가 맞는 파트너와 강한 연대감",
+            "자신을 지나치게 희생할 위험 존재"
+        ],
+        "growth": [
+            "자기 돌봄과 경계 설정",
+            "현실적인 목표 설정 연습"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/INFJ.png"
+    },
+    "INFP": {
+        "tagline": "중재자",
+        "traits": [
+            "이상주의",
+            "공감능력",
+            "내향적",
+            "창의적"
+        ],
+        "strengths": [
+            "깊은 가치관",
+            "예술적 감수성",
+            "타인에 대한 배려"
+        ],
+        "weaknesses": [
+            "결정 회피",
+            "과도한 감정이입",
+            "현실 적응 어려움"
+        ],
+        "career": [
+            "예술·작가",
+            "상담·치료",
+            "사회복지",
+            "교육·문학"
+        ],
+        "love": [
+            "감정을 서로 공유하는 파트너와 깊은 유대감",
+            "감정에 휘둘릴 위험"
+        ],
+        "growth": [
+            "구체적인 목표와 일정 관리",
+            "비판적 사고 연습"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/INFP.png"
+    },
+    "ENFJ": {
+        "tagline": "주인공",
+        "traits": [
+            "카리스마",
+            "사교적",
+            "동기부여",
+            "협력적"
+        ],
+        "strengths": [
+            "사람을 격려함",
+            "대인관계 조율",
+            "조직 리더십"
+        ],
+        "weaknesses": [
+            "과도한 배려",
+            "자기 희생",
+            "비판에 민감"
+        ],
+        "career": [
+            "교육·코칭",
+            "인사·HR",
+            "공공 서비스",
+            "마케팅·홍보"
+        ],
+        "love": [
+            "서로 성장하도록 격려하는 파트너와 조화",
+            "자신의 욕구를 억누를 수 있음"
+        ],
+        "growth": [
+            "자신의 한계와 욕구를 명확히 표현",
+            "비판을 건설적으로 받아들이기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ENFJ.png"
+    },
+    "ENFP": {
+        "tagline": "활동가",
+        "traits": [
+            "열정적",
+            "창의적",
+            "사교적",
+            "즉흥적"
+        ],
+        "strengths": [
+            "긍정 에너지",
+            "다양한 아이디어",
+            "인간관계 구축"
+        ],
+        "weaknesses": [
+            "집중력 부족",
+            "과도한 감정표현",
+            "계획 미흡"
+        ],
+        "career": [
+            "마케팅",
+            "광고",
+            "컨설팅",
+            "예술·디자인"
+        ],
+        "love": [
+            "감정이 풍부한 파트너와 강한 연결",
+            "과도한 감정 쉐어링에 갈등 가능"
+        ],
+        "growth": [
+            "목표를 구체화하고 체크리스트 활용",
+            "시간 관리 스킬 배우기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ENFP.png"
+    },
+    "ISTJ": {
+        "tagline": "청렴가",
+        "traits": [
+            "실용적",
+            "신뢰성",
+            "책임감",
+            "체계적"
+        ],
+        "strengths": [
+            "세부사항에 강함",
+            "규칙 준수",
+            "위기 관리"
+        ],
+        "weaknesses": [
+            "변화에 저항",
+            "감정 표현 억제",
+            "융통성 부족"
+        ],
+        "career": [
+            "회계·감사",
+            "행정·공공기관",
+            "법률·규제",
+            "군·보안"
+        ],
+        "love": [
+            "안정감과 신뢰를 중시하는 파트너와 조화",
+            "감정을 드러내지 않아 오해가 생길 수 있음"
+        ],
+        "growth": [
+            "새로운 시도에 작은 도전 부여",
+            "감정을 솔직히 표현하기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ISTJ.png"
+    },
+    "ISFJ": {
+        "tagline": "수호자",
+        "traits": [
+            "보살핌",
+            "책임감",
+            "세심함",
+            "전통 중시"
+        ],
+        "strengths": [
+            "다른 사람을 챙김",
+            "실제적 지원",
+            "신뢰성"
+        ],
+        "weaknesses": [
+            "과도한 자기희생",
+            "변화에 저항",
+            "자신을 과소평가"
+        ],
+        "career": [
+            "간호·보건",
+            "교육·보육",
+            "행정·고객 서비스",
+            "사회복지"
+        ],
+        "love": [
+            "안정적이고 따뜻한 관계를 선호하는 파트너와 조화",
+            "자기 희생이 지나칠 수 있음"
+        ],
+        "growth": [
+            "자신의 욕구를 인정하고 표현",
+            "새로운 경험에 조금씩 도전"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ISFJ.png"
+    },
+    "ESTJ": {
+        "tagline": "경영자",
+        "traits": [
+            "조직적",
+            "현실적",
+            "결단력",
+            "책임감"
+        ],
+        "strengths": [
+            "효율성 강조",
+            "전략적 실행",
+            "팀 관리 능력"
+        ],
+        "weaknesses": [
+            "세부에 집착",
+            "감정 무시",
+            "권위주의"
+        ],
+        "career": [
+            "경영·관리",
+            "운영·물류",
+            "군·보안",
+            "법률·행정"
+        ],
+        "love": [
+            "목표와 책임을 공유하는 파트너와 강한 연대감",
+            "감정 표현이 부족해 갈등이 생길 수 있음"
+        ],
+        "growth": [
+            "감정을 인정하고 표현 연습",
+            "다른 의견을 경청하기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ESTJ.png"
+    },
+    "ESFJ": {
+        "tagline": "협력가",
+        "traits": [
+            "사교적",
+            "배려심",
+            "조화 추구",
+            "실용적"
+        ],
+        "strengths": [
+            "다른 사람을 잘 이해",
+            "팀 분위기 조성",
+            "실제적인 도움 제공"
+        ],
+        "weaknesses": [
+            "과도한 타인 의존",
+            "비판에 민감",
+            "자신의 욕구 억제"
+        ],
+        "career": [
+            "고객 서비스",
+            "인사·HR",
+            "교육·보육",
+            "마케팅·판매"
+        ],
+        "love": [
+            "서로를 돌보는 파트너와 따뜻한 관계",
+            "자신을 희생하는 경향에 주의"
+        ],
+        "growth": [
+            "자신의 욕구와 감정을 솔직히 표현",
+            "비판을 성장 기회로 받아들이기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ESFJ.png"
+    },
+    "ISTP": {
+        "tagline": "장인",
+        "traits": [
+            "실용적",
+            "독립적",
+            "문제 해결 능력",
+            "손재주"
+        ],
+        "strengths": [
+            "현장 대응력",
+            "기술적 숙련도",
+            "압박 속 침착함"
+        ],
+        "weaknesses": [
+            "감정 표현 회피",
+            "규칙에 얽매이기 싫음",
+            "장기 계획 부족"
+        ],
+        "career": [
+            "기계·공학",
+            "정비·기술지원",
+            "스포츠·탐험",
+            "보안·군사"
+        ],
+        "love": [
+            "자유를 존중해주는 파트너와 자연스러운 관계",
+            "감정적인 깊이가 부족할 수 있음"
+        ],
+        "growth": [
+            "감정을 인식하고 공유하기",
+            "장기 목표 설정 연습"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ISTP.png"
+    },
+    "ISFP": {
+        "tagline": "모험가",
+        "traits": [
+            "감각적",
+            "예술적",
+            "융통성",
+            "내향적"
+        ],
+        "strengths": [
+            "미적 감각",
+            "현재 순간에 집중",
+            "다른 사람에게 따뜻함"
+        ],
+        "weaknesses": [
+            "결정 회피",
+            "갈등 회피",
+            "현실적 계획 부족"
+        ],
+        "career": [
+            "디자인·예술",
+            "요리·식품",
+            "치료·보건",
+            "자연·환경 분야"
+        ],
+        "love": [
+            "감정을 자연스럽게 공유하는 파트너와 풍부한 관계",
+            "갈등을 회피하려다 소홀해질 수 있음"
+        ],
+        "growth": [
+            "명확한 목표 설정",
+            "갈등 상황에서 직접 의사소통 연습"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ISFP.png"
+    },
+    "ESTP": {
+        "tagline": "기업가",
+        "traits": [
+            "모험심",
+            "현장감각",
+            "결단력",
+            "활동적"
+        ],
+        "strengths": [
+            "신속한 행동",
+            "위기 대처 능력",
+            "사람을 이끄는 카리스마"
+        ],
+        "weaknesses": [
+            "지루함에 민감",
+            "장기 계획 부족",
+            "감정 무시"
+        ],
+        "career": [
+            "영업·마케팅",
+            "스포츠·엔터테인먼트",
+            "위기 관리",
+            "군·보안"
+        ],
+        "love": [
+            "역동적이고 활동적인 파트너와 재미있는 관계",
+            "감정적인 깊이가 부족할 수 있음"
+        ],
+        "growth": [
+            "감정을 인식하고 표현 연습",
+            "장기 목표에 대한 작은 단계 만들기"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ESTP.png"
+    },
+    "ESFP": {
+        "tagline": "연예인",
+        "traits": [
+            "사교적",
+            "감각적",
+            "즉흥적",
+            "활동적"
+        ],
+        "strengths": [
+            "다른 사람을 즐겁게 함",
+            "현장 감각 뛰어남",
+            "감정표현 풍부"
+        ],
+        "weaknesses": [
+            "과도한 충동",
+            "규칙 회피",
+            "깊이 있는 계획 부족"
+        ],
+        "career": [
+            "연예·예술",
+            "관광·행사 기획",
+            "판매·고객 서비스",
+            "패션·디자인"
+        ],
+        "love": [
+            "함께 즐거운 순간을 만들 파트너와 활기찬 관계",
+            "감정 과잉 표현이 갈등을 일으킬 수 있음"
+        ],
+        "growth": [
+            "장기적인 목표와 일정 만들기",
+            "충동을 조절하는 스킬 적용"
+        ],
+        "icons": {
+            "traits": "sun",
+            "strengths": "thumbs-up",
+            "weaknesses": "x-circle",
+            "career": "globe",
+            "love": "heart",
+            "growth": "arrow-up-circle"
+        },
+        "image": "https://raw.githubusercontent.com/yourrepo/assets/main/ESFP.png"
+    }
+}

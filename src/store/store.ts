@@ -1,5 +1,6 @@
 import authReducer from "@/store/auth/authSlice";
 import busReducer from "@/store/bus/busSlice";
+import mbtiReducer from "@/store/mbti/mbtiSlice";
 import mp3Reducer from "@/store/mp3player/mp3Slice";
 import { configureStore } from "@reduxjs/toolkit";
 import { busApi } from "./bus/busApi";
@@ -12,6 +13,7 @@ export const store = configureStore({
     auth: authReducer,
     bus: busReducer,
     mp3: mp3Reducer,
+    mbti: mbtiReducer,
     [busApi.reducerPath]: busApi.reducer,
     [weatherApi.reducerPath]: weatherApi.reducer,
     [streetmapApi.reducerPath]: streetmapApi.reducer,

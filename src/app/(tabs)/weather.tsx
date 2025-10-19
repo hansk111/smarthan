@@ -121,7 +121,7 @@ const Weather = () => {
   const { data: weatherpositions } = useGetAllWeatherPositionQuery();
   const [saveWeatherPosition] = useSaveWeatherPositionMutation();
   const [deleteWeatherPosition] = useDeleteWeatherPositionMutation();
-  console.log("weatherpositions", weatherpositions);
+  // console.log("weatherpositions", weatherpositions);
 
   const [date, setDate] = useState<string>("");
   const [time, setTime] = useState<string>("");
@@ -293,11 +293,10 @@ const Weather = () => {
                 <View key={`search-${index}`} className="px-4 flex-row">
                   <Pressable
                     // className="bg-yellow-100 border border-yellow-300 rounded-xl px-4 py-3 mb-3 shadow-sm"
-                    className={`rounded-xl px-4 py-3 mb-3 shadow-sm ${
-                      item.country === "KR"
+                    className={`rounded-xl px-4 py-3 mb-3 shadow-sm ${item.country === "KR"
                         ? "bg-yellow-100 border border-yellow-300"
                         : "bg-blue-100 border border-blue-300"
-                    }`}
+                      }`}
                     onPress={() => handleOnpress(item)}
                   >
                     <View className="flex-wrap items-center justify-between">
@@ -578,10 +577,9 @@ const Weather = () => {
               <View className="items-center">
                 <Image
                   source={{
-                    uri: `https://openweathermap.org/img/wn/${
-                      currentweatherandforecast?.current?.weather?.[0]?.icon ||
+                    uri: `https://openweathermap.org/img/wn/${currentweatherandforecast?.current?.weather?.[0]?.icon ||
                       "default"
-                    }@4x.png`,
+                      }@4x.png`,
                   }}
                   style={{ width: 120, height: 120 }}
                   resizeMode="contain"
@@ -625,11 +623,10 @@ const Weather = () => {
                   {currentweatherandforecast?.hourly?.map((hour, index) => (
                     <View
                       key={index}
-                      className={`bg-slate-300 rounded-md items-center ${
-                        !isHorizontal
+                      className={`bg-slate-300 rounded-md items-center ${!isHorizontal
                           ? "pl-2 pr-2 mb-2 flex-row justify-between"
                           : "p-2 mr-2"
-                      }`}
+                        }`}
                     >
                       {/* 시간 */}
                       <Text className="text-base text-gray-900">
@@ -639,9 +636,8 @@ const Weather = () => {
                       {/* 날씨 아이콘 */}
                       <Image
                         source={{
-                          uri: `https://openweathermap.org/img/wn/${
-                            hour.weather?.[0]?.icon || "default"
-                          }@4x.png`,
+                          uri: `https://openweathermap.org/img/wn/${hour.weather?.[0]?.icon || "default"
+                            }@4x.png`,
                         }}
                         style={{ width: 40, height: 40 }}
                         resizeMode="contain"
@@ -718,9 +714,8 @@ const Weather = () => {
                   <View className="mx-4 items-center">
                     <Image
                       source={{
-                        uri: `https://openweathermap.org/img/wn/${
-                          day.weather?.[0]?.icon || "default"
-                        }@4x.png`,
+                        uri: `https://openweathermap.org/img/wn/${day.weather?.[0]?.icon || "default"
+                          }@4x.png`,
                       }}
                       style={{ width: 80, height: 80 }}
                       resizeMode="contain"
